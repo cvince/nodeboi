@@ -17,7 +17,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/2', function (req, res) {
-  res.render('index2');
+  res.render('ind2eag');
 });
 
 
