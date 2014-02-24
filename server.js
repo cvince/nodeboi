@@ -16,11 +16,6 @@ app.get('/', function (req, res) {
   res.render('index');
 });
 
-app.get('/2', function (req, res) {
-  res.render('ind2eag');
-});
-
-
 /* Listen */
 var port = process.env.PORT || 5000;
 app.listen(port, function () {
